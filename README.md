@@ -1,1 +1,3 @@
-# Projekt-ADP
+# Projekt ADP
+
+Repozytorium do projektu ADP.
