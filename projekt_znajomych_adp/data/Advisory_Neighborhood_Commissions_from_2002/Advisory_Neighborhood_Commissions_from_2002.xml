@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?><metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin/>
+                <pubdate>20020703</pubdate>
+                <title>Advisory Neighborhood Commissions from 2002</title>
+                <geoform>vector digital data</geoform>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Advisory Neighborhood Commissions or ANC's are collections of Single Member Districts or SMD's. There are multiple ANC's for each of the eight Wards. The initial number of ANC codes correspond to the ward. Three ANC's cross ward boundaries; 3C, 3G and 6D, the remaining do not. ANC's consider a wide range of policies and programs affecting their neighborhoods. These include traffic, parking, recreation, street improvements, liquor licenses, zoning, economic development, police protection, sanitation and trash collection, and the District's annual budget. No public policy area is excluded from the purview of the Advisory Neighborhood Commissions. The intent of the ANC legislation is to ensure input from an advisory board made up of the residents of the neighborhoods directly affected by government action. The ANCs are the body of government with the closest official ties to the people in a neighborhood. ANCs present their positions and recommendations on issues to various District government agencies, the Executive Branch, and the Council. They also present testimony to independent agencies, boards and commissions, usually under rules of procedure specific to those entities. By law, the ANCs may also present their positions to Federal agencies.</abstract>
+            <purpose>The 2002 boundaries for the Advisory Neighborhood Commissions. ANCs allow input from an advisory board made up of the residents of the neighborhoods directly affected by government action.</purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>20020101</caldate>
+                </sngdate>
+            </timeinfo>
+            <current>ground condition</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>None planned</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-77.119896</westbc>
+                <eastbc>-76.909016</eastbc>
+                <northbc>38.995967</northbc>
+                <southbc>38.791582</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>administrative</themekey>
+                <themekey>political</themekey>
+            </theme>
+            <theme>
+                <themekt>ISO 19115 Topic Categories</themekt>
+                <themekey>boundaries</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>washington dc</placekey>
+                <placekey>district of columbia</placekey>
+                <placekey>dc</placekey>
+            </place>
+            <temporal>
+                <tempkt>None</tempkt>
+                <tempkey>2002</tempkey>
+            </temporal>
+        </keywords>
+        <accconst>Other Constraints</accconst>
+        <useconst>This work is licensed under a Creative Commons Attribution 4.0 International License.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of Planning</cntorg>
+                </cntorgp>
+                <cntpos>State Data Center</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>1100 4th Street SW, Suite 650 East</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20024</postal>
+                </cntaddr>
+                <cntvoice>(202) 442-7600</cntvoice>
+                <cntemail>planning@dc.gov</cntemail>
+            </cntinfo>
+        </ptcontac>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5 pm</hours>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Office of Planning</datacred>
+        <native>Version 6.2 (Build 9200) ; Esri ArcGIS 10.3.1.4959</native>
+    </idinfo>
+    <dataqual>
+        <lineage>
+            <procstep>
+                <procdesc>Quality Control: Step 1 - Initial Check against prior edition The Office of Planning conducted an initial quality check that compared the updated boundaries to those originally delivered to OCTO. Each SMD was reviewed for anomalies, and flagged for future review with council staff and the legal text. Step 2 - Detailed review with Edward Elders of Council Member Mendelson's staff OP staff reviewed those areas with Edward Elders of Council Member Mendelson's staff and the controlling legal text. The product of that review is a shapefile that is to be used as a guide for editing the final SMD boundary geodatabase. The SMD_edit_line is only a guide. Edits to the SMD geodatabase should use the snapbase where the SMD_edit_line follows snapbase features. Where the SMD_edit_line does not follow a snapbase feature, the exact path of the SMD_edit_line should be followed. Each line segment has attributes describing how edits should be conducted. The attributed SMD_edit_line is being transmitted to OCTO for use in editing the final SMD boundary geodatabase.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>Through the comparison of 2000 ward, 2002 ANC, 2002 SMD, and the snapbase features, OCTO staff performed several edits to align these layers. In this effort, staff corrected six issues.</procdesc>
+            </procstep>
+            <procstep>
+                <procdesc>ANC boundaries are a combination of Single Member District (SMD) boundaries. SMD boundaries were digitized on-screen between the scales of 1:5000 and 1:800 and snapped to an existing planimetric base layer. Although snapped to the existing base features, the digitized boundaries are not identical to those base features. Differences are not significant at scales that allow each DMS to be plotted on a letter-sized page, but differences may become apparent when zoomed in further. SMD boundaries follow the legal boundary descriptions from the DC Council and Board of Elections and Ethics. Gottlieb Simon (ANC staff) originally created boundaries for SMDs and ANCs reflecting redistricting using Atlas GIS and a TIGER/line base map. This product had important limitations because the TIGER/line base was not up to date, contained inaccurate and sometimes incorrect street data, and did not overlay properly over the other map data sets used by the District. On a quick-turnaround basis, the Office of Planning created a set of SMD/ANC boundaries using ArcGIS 8.1 and a DC GIS planimetric base map. The design goal for this edition of these boundaries was not to create a topologically-correct product that overlaid precisely atop the corresponding planimetric features. Instead, it was to create boundaries that were of sufficient accuracy to allow rapid creation of 8 ? by 11 paper maps for each of the various SMDs and ANCs. An ArcGIS 8.1 snap environment was used to snap to underlying features in the DC GIS snapbase layer. After a quick manual process to snap the TIGER-based boundaries to the corresponding planimetric boundaries, OP held a series of working sessions with BOEE, ANC, and Council staff to review each boundary against the appropriate legal description. Where needed, mapped boundaries were adjusted to fit legal descriptions using the "Shared Edit Tool" and the snapping environment. In many instances, this process highlighted inconsistencies in the legal descriptions, and BOEE and ANC staff created technical amendments as necessary to amend the defining legislation. This manual editing process of snapping boundaries to features in the snapbase layer did not produce boundaries that were identical to the underlying features, but resulted merely in boundaries that shared selected vertices with the underlying features. At the design scales for this product, this difference is not visible on printed maps. These files, however, were not suitable for use in automated processes for developing lists of addresses in each SMD by overlay with street data. After these files were transmitted to OCTO, one erratum was discovered and corrected. Thereafter, OCTO employed Michael Baker Corporation to conflate the SMD boundaries geodatabase to the snapbase GIS file. Michael Baker conducted the conflation effort, but consulted OCTO when there was a question with SMD boundary location. Since OCTO did not conduct the Phase 1 effort, and Michael Baker did not have the legal text, the generic rule was to conflate to the nearest snapbase when there was a question. Finally, the SMD layer was updated and dissolved into the ANC layer.</procdesc>
+                <procdate>20020703</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>GT-polygon composed of chains</sdtstype>
+                <ptvctcnt>37</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>DCGIS.ANC02Ply</enttypl>
+                <enttypd>DC Template</enttypd>
+                <enttypds>DCOP</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>Shape</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OBJECTID</attrlabl>
+                <attrdef>Object ID</attrdef>
+                <attrdefs>DCGIS</attrdefs>
+            </attr>
+            <attr>
+                <attrlabl>GIS_ID</attrlabl>
+                <attrdef>Sequential OCTO-GIS number</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>ANC_ID</attrlabl>
+                <attrdef>ANC identifier</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>NAME</attrlabl>
+                <attrdef>ANC Name</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Editor</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Edited</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.AREA</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>WEB_URL</attrlabl>
+                <attrdef>Web site url</attrdef>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE.LEN</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>Esri</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SHAPE</attrlabl>
+                <attrdef>Feature geometry.</attrdef>
+                <attrdefs>ESRI</attrdefs>
+                <attrdomv>
+                                        					
+                    
+                    <udom>Coordinates defining the features.</udom>
+                                        				
+                
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GlobalID</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Creator</attrlabl>
+            </attr>
+            <attr>
+                <attrlabl>Created</attrlabl>
+            </attr>
+        </detailed>
+    </eainfo>
+    <metainfo>
+        <metd>20230627</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Office of the Chief Technology Officer</cntorg>
+                </cntorgp>
+                <cntpos>GIS Data Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical</addrtype>
+                    <address>200 I Street SE</address>
+                    <city>Washington</city>
+                    <state>DC</state>
+                    <postal>20003</postal>
+                    <country>US</country>
+                </cntaddr>
+                <cntvoice>(202) 727-2277</cntvoice>
+                <cntemail>dcgis@dc.gov</cntemail>
+                <hours>8:30 am - 5 pm</hours>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>
